@@ -31820,8 +31820,8 @@ try {
 //    console.log(process.env.secrets.TOKEN);
     console.log("-------------------------");
     console.log(process.env.GITHUB_WORKSPACE);
-    console.log(process.env.TEST_VARIABLE);
-    console.log(process.env.TEST_REPO_VARIABLE);
+    console.log(process.env.TEST.TEST_VARIABLE);
+    console.log(process.env.TEST.TEST_REPO_VARIABLE);
     console.log("-------------------------");
 
     // `who-to-greet` input defined in action metadata file
